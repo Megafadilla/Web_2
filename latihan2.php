@@ -1,7 +1,7 @@
 <?php
 	$A = 123 ; // variable global
 	function Test() {
-	$A = "Test"; // variable local
+	global $A ; // variable local
 	echo"Nilai A dalam fungsi = $A \n";
 	}
 	Test();
